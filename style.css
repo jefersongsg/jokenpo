@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(./img/backgroundo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fogo{
+    
+    width: 170px;
+    height: 130px;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+    background-image:url("img/fogoest.jpg");
+    background-size: cover;
+    transition: background-image 0.7s ease;   
+}
+.fogo:hover{
+    background-image:url("img/fogogif.gif");  
+}
+.agua{ 
+   
+    width: 170px;
+    height: 130px;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+    background-image:url("img/aguaest.jpg");
+    background-size: cover;
+    transition: background-image 0.7s ease; 
+}
+.agua:hover{
+    background-image:url("img/aguagif.gif");  
+}
+.terra{
+    
+    width: 170px;
+    height: 130px;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+    background-image:url("img/terraest.jpg");
+    background-size: cover;
+    transition: background-image 0.7s ease; /* Adicione uma transição suave */
+        /* Quando o mouse passar sobre o botão, altere a imagem de fundo */   
+}
+.terra:hover {
+    background-image:url("img/terragif.gif"); 
+}
+/*.ar{
+    
+    width: 170px;
+    height: 130px;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+    background-image:url("img/arest.jpg");
+    background-size: cover;
+    transition: background-image 0.7s ease;   
+}
+.ar:hover{
+    background-image:url("img/argif.gif");  
+}*/
+P{
+    font-weight: bold;
+    font-size: 30PX;
+    margin-top: 20PX;
+}
+h1{ 
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+.buttons{
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+.your-score span {
+    color: blue;
+}
+.machine-score span{
+    color:red
+}
