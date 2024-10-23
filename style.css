@@ -12,14 +12,13 @@ body {
     min-height: 100vh;
 }
 .container {
-    
-    padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    gap:10px;
 }
 
 .fogo{
@@ -82,18 +81,25 @@ body {
 P{
     font-weight: bold;
     font-size: 30PX;
-    margin-top: 20PX;
+    text-align: center;
+}
+.machine-score{
+    margin-bottom: 20px;
+}   
+.result{
+   font-size: 40PX; 
 }
 h1{ 
     font-size: 50px;
     font-weight: bolder;
-    margin-top: 20px;
-
+    text-align: center;
 }
 .buttons{
-    padding: 40px;
+    padding: 10px;
     display: flex;
-    gap: 40px;
+    gap: 20px;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .your-score span {
     color: blue;
@@ -101,3 +107,5 @@ h1{
 .machine-score span{
     color:red
 }
+@media screen and (min-width: 440px)
+.container{    width: 330px;  }
